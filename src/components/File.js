@@ -5,7 +5,6 @@ const File = (props) => {
   const { name, extension } = props;
 
   function icon () {
-    console.log(extension)
     if (extension === ".txt") {
       return <FileText />
     }
